@@ -47,7 +47,7 @@ jobs:
       - name: Run unit tests
         run: uv run pytest -v
 
-    build-image:
+  build-image:
     needs:
       - lint
       - unit-test
