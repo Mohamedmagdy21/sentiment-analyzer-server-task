@@ -15,6 +15,6 @@ image_name = os.getenv("IMAGE_NAME", "").strip()
 sha = os.getenv("GITHUB_SHA_SHORT", "").strip()
 
 deployment.start(
-    image=f"{dockerhub_username}/{image_name}:{sha}",
+    image=f"{dockerhub_username}/{image_name}:latest",
     ports=[8000],
 )
