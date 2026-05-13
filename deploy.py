@@ -5,7 +5,7 @@ from lightning_sdk.deployment import Deployment
 deployment = Deployment(
    name="sentiment-analyzer", 
    teamspace=os.getenv("TEAMSPACE"),
-   user=os.getenv("LIGHTNING_USERNAME")
+   
 )
 
 print(os.getenv("TEAMSPACE"))
