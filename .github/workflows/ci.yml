@@ -81,7 +81,7 @@ jobs:
     env:
       TEAMSPACE: ${{ vars.TEAMSPACE }}
       IMAGE_NAME: ${{ vars.IMAGE_NAME }}
-      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      DOCKERHUB_USERNAME: ${{ vars.DOCKERHUB_USERNAME }}
       LIGHTNING_USERNAME: ${{ secrets.LIGHTNING_USERNAME }}
       GITHUB_SHA_SHORT: ${{ github.sha }}
       LIGHTNING_USER_ID: ${{ secrets.LIGHTNING_USER_ID }}
