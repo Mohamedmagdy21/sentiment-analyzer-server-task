@@ -3,7 +3,7 @@ import os
 from lightning_sdk.deployment import Deployment
 
 deployment = Deployment(
-   name="sentiment-analyzer-othertriallll", 
+   name="sentiment-analyzer-othertrialllll", 
    teamspace=os.getenv("TEAMSPACE"),
    user=os.getenv("LIGHTNING_USER_ID")
    
